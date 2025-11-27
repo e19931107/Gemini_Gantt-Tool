@@ -1,14 +1,7 @@
-# Gemini_Gantt-Tool
-
-# 我的專案時程表
-
-以下是我們根據台灣工作日計算的開發進度甘特圖：
-
-```mermaid
 gantt
     dateFormat  YYYY-MM-DD
     title       硬體專案開發甘特圖 (以台灣工作日計算)
-    axisFormat  %Y-%m
+    axisFormat  %Y-%m-%d    %% <<-- 這裡改成顯示年-月-日
     excludes    weekends
 
     section 專案階段
