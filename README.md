@@ -1,19 +1,3 @@
-<script>
-  window.mermaidConfig = {
-    gantt: {
-      axisFormat: '%Y/%m/%d'
-    },
-    // 此設定強制 Mermaid 使用英文語系，以防止環境自動添加「年」「月」「日」等中文字
-    startOnLoad: true,
-    securityLevel: 'loose',
-    theme: 'default',
-    fontFamily: 'sans-serif',
-    flowchart: {
-      use=strict: true,
-    }
-  };
-</script>
-
 ```mermaid
 gantt
     dateFormat  YYYY-MM-DD
